@@ -110,7 +110,7 @@ main {
     margin-left: 182px;
     margin-right: 182px;
     padding: 16px;
-    
+
 }
 
 .find {
@@ -121,4 +121,42 @@ main {
     margin: auto;
     align-items: center;
     border-radius: 8px;
+}
+
+/* popular tours styles  */
+.tours-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.tours-title {
+    color: #131318;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 0%;
+
+}
+.tours-pera{
+    margin-top: 0%;
+    margin-right: 20%;
+    font-size: 1rem;
+    color: #5A5A5D;
+    font-weight: 400;
+}
+
+.tours-img-container {
+    border-radius: 16px;
+    background: lightgray 50% / cover no-repeat;
+    width: 540px;
+    height: 550px;
+}
+.read{
+    padding: 14px;
+    width: 174px;
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 12%;
 }

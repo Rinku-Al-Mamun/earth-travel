@@ -1,50 +1,124 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&display=swap');
 
-*{
+* {
     font-family: 'Mulish', sans-serif;
 }
 
 /* shared styles  */
-.text-primary{
-    color: #FF5400;;
+.text-primary {
+    color: #FF5400;
+}
+
+.btn-primary {
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+
 }
 
 /* header styls  */
 
-.earth-navbar{
+.earth-navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
+
 }
+
 .img-logo {
 
     width: 48px;
     height: 56px;
     margin-left: 135px;
     margin-right: 0%;
-    
+
 }
-.earth-title{
+
+.earth-title {
     margin-left: 5px;
     margin-right: 400px;
     font-size: 2.1rem;
     font-weight: 800;
 }
-nav > ul {
+
+nav>ul {
     display: flex;
     margin-right: 127px;
 
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 44px;
     font-size: 18px;
     font-weight: 400;
-    
+
 }
-nav li a{
+
+nav li a {
     text-decoration: none;
     color: #424247;
 
+}
+
+main {
+    margin-left: 150px;
+    margin-right: 100px;
+}
+
+/* banner-section  */
+.banner-section {
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    width: 1180px;
+    height: 500px;
+    background: url('../Images/Group-13.png'), linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+}
+
+.banner-title {
+    text-align: center;
+    padding-top: 150px;
+    font-size: 4rem;
+    font-weight: 800;
+    color: #FFF;
+    margin-bottom: 0%;
+
+}
+
+.banner-sit {
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.banner-form {
+    display: inline-flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    width: 174px;
+    height: 52px;
+    margin: 16px;
+    gap: 24px;
+    border: none;
+
+}
+
+.outer {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin-left: 182px;
+    margin-right: 182px;
+    padding: 16px;
+    
+}
+
+.find {
+    display: flex;
+    width: 170px;
+    height: 52px;
+    padding: 16px 50px;
+    margin: auto;
+    align-items: center;
+    border-radius: 8px;
 }

@@ -164,6 +164,27 @@ main {
 }
 
 /* destination tours styls */
+.destination-title {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0%;
+
+}
+
+.choose-pera {
+    margin-top: 20px;
+    margin-left: 345px;
+    margin-right: 345px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+
 .rowone {
     display: flex;
     justify-content: center;
@@ -180,7 +201,8 @@ main {
     position: relative;
 }
 
-.rowtwo, .thirdrow {
+.rowtwo,
+.thirdrow {
     margin-top: 24px;
     display: flex;
     justify-content: center;
@@ -210,9 +232,7 @@ main {
     position: relative;
 }
 
-.thirdrow {
-    
-}
+
 
 .thirdrow-one {
     border: none;
@@ -237,4 +257,117 @@ main {
     transform: translate(-50%, -50%);
     font-size: 28px;
     color: #FFF;
+}
+
+/* why choose us style */
+.choose-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.hotel {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 573px;
+    height: 284px;
+
+
+}
+
+.hotel-img {
+    margin-top: 32px;
+    margin-left: 32px;
+    border: none;
+    width: 64px;
+    height: 64px;
+}
+
+.fas {
+    font-size: 64px;
+    color: rgb(233, 10, 211);
+
+}
+
+.service {
+
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    width: 573px;
+    height: 284px;
+}
+
+.fa-solid {
+    font-size: 64px;
+    color: orange;
+
+}
+
+.fa-map-location {
+    font-size: 64px;
+    color: rgb(255, 81, 0);
+}
+
+.Guarantee {
+    margin-top: 24px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    width: 573px;
+    height: 284px;
+
+}
+
+.hotel-title {
+    color: #131318;
+    margin-left: 32px;
+    margin-right: 280px;
+    margin-bottom: 0%;
+    font-size: 24px;
+    font-weight: 800px;
+
+}
+
+.hotel-pera {
+    margin-top: 16px;
+    margin-left: 32px;
+    margin-right: 55px;
+    margin-bottom: 32px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+
+
+
+
+
+/* a simple perfect place to get lost style */
+.place-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.place-content {
+    border: 1px solid red;
+    width: 573px;
+    height: 424px;
+
+
+}
+
+.place-image {
+    border: solid red;
+    width: 573px;
+    height: 424px;
+
 }

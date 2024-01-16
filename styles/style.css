@@ -365,9 +365,50 @@ main {
 
 }
 
+.place-title {
+    color: #131318;
+    width: 448px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px;
+
+}
+
+.place-pera {
+    width: 532px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+
+.place-list {
+    width: 518px;
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+
+}
+
 .place-image {
     border: solid red;
     width: 573px;
     height: 424px;
+    position: relative;
+
+}
+
+.see-more {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
 
 }

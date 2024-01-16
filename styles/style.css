@@ -138,7 +138,8 @@ main {
     margin-bottom: 0%;
 
 }
-.tours-pera{
+
+.tours-pera {
     margin-top: 0%;
     margin-right: 20%;
     font-size: 1rem;
@@ -152,11 +153,88 @@ main {
     width: 540px;
     height: 550px;
 }
-.read{
+
+.read {
     padding: 14px;
     width: 174px;
     height: 52px;
     border: none;
     border-radius: 8px;
     margin-top: 12%;
+}
+
+/* destination tours styls */
+.rowone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+
+}
+
+.first-imgrow {
+    border: none;
+    width: 573px;
+    height: 300px;
+    position: relative;
+}
+
+.rowtwo, .thirdrow {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+}
+
+.secondrow-one {
+    border: none;
+    width: 374px;
+    height: 286px;
+    position: relative;
+}
+
+.secondrwo-two {
+    border: none;
+    width: 474px;
+    height: 286px;
+    position: relative;
+}
+
+.secondrwo-three {
+    border: none;
+    width: 274px;
+    height: 286px;
+    position: relative;
+}
+
+.thirdrow {
+    
+}
+
+.thirdrow-one {
+    border: none;
+    width: 473px;
+    height: 300px;
+    position: relative;
+
+}
+
+.thirdrow-two {
+    border: none;
+    width: 673px;
+    height: 300px;
+    position: relative;
+
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    color: #FFF;
 }

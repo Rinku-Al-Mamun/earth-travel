@@ -7,6 +7,7 @@
 /* shared styles  */
 .text-primary {
     color: #FF5400;
+    font-weight: 700px;
 }
 
 .btn-primary {
@@ -17,49 +18,54 @@
 }
 
 /* header styls  */
-
-.earth-navbar {
+.navbar-header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    max-height: 1250px;
+    margin: 0 auto;
+    border: none;
+    min-height: 20px;
+
 
 }
 
-.img-logo {
+.nav-container {
+    border: none min-height: 20px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
 
+.nav-container img {
     width: 48px;
-    height: 56px;
-    margin-left: 135px;
-    margin-right: 0%;
 
 }
 
 .earth-title {
     margin-left: 5px;
-    margin-right: 400px;
+    margin-right: 40px;
     font-size: 2.1rem;
     font-weight: 800;
 }
 
-nav>ul {
+.items-container {
+    border: none;
+    min-height: 20px;
+    width: 50%;
     display: flex;
-    margin-right: 127px;
-
+    justify-content: space-between;
+    align-items: center;
 }
 
-nav li {
-    list-style: none;
-    margin-right: 44px;
-    font-size: 18px;
-    font-weight: 400;
-
-}
-
-nav li a {
+.items-container a {
+    display: block;
     text-decoration: none;
     color: #424247;
-
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
 }
+
+
 
 main {
     margin-left: 150px;
@@ -68,6 +74,7 @@ main {
 
 /* banner-section  */
 .banner-section {
+    border: none;
     border-radius: 16px;
     background-repeat: no-repeat;
     width: 1180px;
@@ -87,40 +94,64 @@ main {
 
 .banner-sit {
     color: #FFF;
+    width: 675px;
     text-align: center;
     font-size: 1rem;
     font-weight: 400;
 }
 
 .banner-form {
-    display: inline-flex;
+    width: 634px;
+    height: 84px;
+}
+
+.banner-form input {
+
+    display: inline-block;
     justify-content: space-between;
+    align-items: center;
     border-radius: 8px;
-    width: 174px;
+    width: 160px;
     height: 52px;
     margin: 16px;
-    gap: 24px;
+    gap: 20px;
     border: none;
+    color: #FFF;
 
 }
 
 .outer {
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    border: 1px solid red;
+    width: 816px;
+    height: 84;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
-    margin-left: 182px;
-    margin-right: 182px;
+    margin-left: 150px;
+    margin-right: 150px;
     padding: 16px;
+    gap: 20px;
 
 }
 
 .find {
-    display: flex;
+    background: #FF5400;
+    color: #FFF;
+    border: none;
     width: 170px;
     height: 52px;
-    padding: 16px 50px;
+    padding: 16px 40px;
     margin: auto;
     align-items: center;
     border-radius: 8px;
+}
+
+.find-icon {
+    margin-left: 0px;
+    width: 10px;
+    height: 10px;
 }
 
 /* popular tours styles  */
@@ -128,6 +159,11 @@ main {
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
+}
+.tours-content{
+    border: 1px solid red;
+    width: 600px;
+    height: 550px;
 }
 
 .tours-title {
@@ -138,16 +174,19 @@ main {
     margin-bottom: 0%;
 
 }
+}
 
-.tours-pera {
+.tours-pera li{
     margin-top: 0%;
     margin-right: 20%;
     font-size: 1rem;
     color: #5A5A5D;
     font-weight: 400;
+   
 }
 
 .tours-img-container {
+    border: 1px solid red;
     border-radius: 16px;
     background: lightgray 50% / cover no-repeat;
     width: 540px;
@@ -160,7 +199,8 @@ main {
     height: 52px;
     border: none;
     border-radius: 8px;
-    margin-top: 12%;
+    margin-top: 20%;
+    
 }
 
 /* destination tours styls */
@@ -300,11 +340,12 @@ main {
     height: 284px;
 }
 
-.fa-solid {
-    font-size: 64px;
+/* .fa-solid {
+    
+    font-size: 20px;
     color: orange;
 
-}
+} */
 
 .fa-map-location {
     font-size: 64px;
@@ -459,7 +500,7 @@ hr {
 
 
 
-input {
+/* input {
     margin-top: 16px;
     margin-left: 40px;
     width: 393px;
@@ -468,7 +509,7 @@ input {
     background: rgba(19, 19, 24, 0.05);
     gap: 16px;
 
-}
+} */
 
 .subscribe {
     margin-top: 38px;
@@ -592,3 +633,125 @@ input {
     font-weight: 300;
 
 }
+
+@media screen and (max-width: 1200px) {}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .navbar-header {
+        flex-direction: column;
+        margin-left: 50px;
+    }
+
+    .nav-container {
+        width: 28px;
+        height: 33px;
+
+    }
+
+    .items-container {
+        flex-direction: column;
+        margin-left: 50px;
+        gap: 20px;
+    }
+
+    .banner-section {
+        width: 335px;
+        height: 483px;
+    }
+
+    .banner-title {
+        text-align: center;
+        padding-top: 50px;
+        font-size: 1rem;
+        margin-bottom: 0%;
+
+    }
+
+    .banner-sit {
+        width: 304px;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .banner-form {
+        width: 170px;
+        height: px;
+    }
+
+    .banner-form input {
+
+        display: inline-block;
+        justify-content: space-between;
+        align-items: center;
+        width: 255px;
+        height: 52px;
+
+    }
+
+    .outer {
+        margin: 16px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: flex-start;
+        width: 287px;
+        height: 306px;
+        gap: 10px;
+
+    }
+
+    .find {
+        align-items: center;
+        margin-left: 0px;
+        margin-top: 250px;
+        width: 255px;
+        height: 52px;
+
+    }
+
+    /* our popular tours section  */
+        .tours-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+    
+        .tours-content {
+            border: 1px solid red;
+            width: 376px;
+            
+        }
+    
+        .tours-title {
+            font-size: 20px;
+    
+        }
+        .tours-pera li {
+            margin-top: 0%;
+            margin-right: 10%;
+            font-size: 14px;
+            
+    
+        }
+    
+        .tours-img-container {
+           
+            background: lightgray 50% / cover no-repeat;
+            width: 335px;
+            height: 342px;
+        }
+    
+        .read {
+            padding: 14px;
+            width: 174px;
+            height: 52px;
+           
+    
+        }
+
+
+}
+
